@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DirectionalLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:height="match_parent"
+    ohos:width="match_parent"
+    ohos:alignment="center"
+    ohos:orientation="vertical">
+
+    <DependentLayout
+        ohos:height="match_content"
+        ohos:width="match_parent"
+        ohos:top_margin="5vp"
+        ohos:orientation="horizontal"
+        >
+        <Image
+            ohos:id="$+id:goback"
+            ohos:height="40vp"
+            ohos:width="40vp"
+            ohos:align_parent_left="true"
+            ohos:start_margin="5vp"
+            ohos:scale_mode="stretch"
+            ohos:image_src="$media:back_button"/>
+        <DirectionalLayout
+            ohos:height="match_content"
+            ohos:width="match_content"
+            ohos:right_of="$id:goback"
+            ohos:left_of="$id:forward"
+            ohos:center_in_parent="true">
+            <Text
+                ohos:id="$+id:webpage_header"
+                ohos:height="match_content"
+                ohos:width="match_content"
+                ohos:background_element="$graphic:header_background"
+                ohos:layout_alignment="center"
+                ohos:padding="10vp"
+                ohos:text="$string:webpage_header"
+                ohos:text_color="#FFFFFF"
+                ohos:text_size="15vp"
+                />
+        </DirectionalLayout>
+        <Image
+            ohos:id="$+id:forward"
+            ohos:height="40vp"
+            ohos:width="40vp"
+            ohos:end_margin="5vp"
+            ohos:align_parent_right="true"
+            ohos:scale_mode="stretch"
+            ohos:image_src="$media:forward_button"
+            />
+    </DependentLayout>
+
+    <ohos.agp.components.webengine.WebView
+        ohos:id="$+id:webview"
+        ohos:height="match_parent"
+        ohos:width="match_parent"
+        ohos:margin="20vp"
+        />
+</DirectionalLayout>

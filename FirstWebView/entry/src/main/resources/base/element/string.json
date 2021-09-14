@@ -1,0 +1,36 @@
+{
+  "string": [
+    {
+      "name": "entry_MainAbility",
+      "value": "Sam's WebView Demo"
+    },
+    {
+      "name": "mainability_description",
+      "value": "Java_Empty Ability"
+    },
+    {
+      "name": "mainability_textheader",
+      "value": "WebView Demo"
+    },
+    {
+      "name": "mainability_web_page_text",
+      "value": "Load a Web page"
+    },
+    {
+      "name": "mainability_local_page_text",
+      "value": "Load a Local page"
+    },
+    {
+      "name": "webpage_header",
+      "value": "Webpage yet to be loaded"
+    },
+    {
+      "name": "localpage_header",
+      "value": "SIGN UP"
+    },
+    {
+      "name": "get_cookie",
+      "value": "GET COOKIES"
+    }
+  ]
+}
