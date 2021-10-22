@@ -1,0 +1,44 @@
+{
+  "string": [
+    {
+      "name": "entry_MainAbility",
+      "value": "Intents"
+    },
+    {
+      "name": "activity_launch",
+      "value": "Start a new activity"
+    },
+    {
+      "name": "mainability_HelloWorld",
+      "value": "Hello World"
+    },
+    {
+      "name": "map_launch",
+      "value": "Show map"
+    },
+    {
+      "name": "dial_Call",
+      "value": "Make a Call"
+    },
+    {
+      "name": "launch_browser",
+      "value": "Launch Browser"
+    },
+    {
+      "name": "choose_file",
+      "value": "Choose File"
+    },
+    {
+      "name": "new_activity",
+      "value": "This is a new activity"
+    },
+    {
+      "name": "entry_SecondAbility",
+      "value": "SecondAbility"
+    },
+    {
+      "name": "label",
+      "value": "Below data has been fetched from Intent object that was passed through previous Ability"
+    }
+  ]
+}

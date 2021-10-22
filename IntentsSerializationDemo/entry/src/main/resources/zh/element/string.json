@@ -1,0 +1,16 @@
+{
+  "string": [
+    {
+      "name": "entry_SecondAbility",
+      "value": "entry_SecondAbility"
+    },
+    {
+      "name": "secondability_description",
+      "value": "Java_Empty Ability"
+    },
+    {
+      "name": "secondability_HelloWorld",
+      "value": "你好，世界"
+    }
+  ]
+}

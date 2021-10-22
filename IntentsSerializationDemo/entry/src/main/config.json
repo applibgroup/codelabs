@@ -1,0 +1,69 @@
+{
+  "app": {
+    "bundleName": "org.applibgroup.codelabs.intents",
+    "vendor": "applibgroup",
+    "version": {
+      "code": 1000000,
+      "name": "1.0.0"
+    }
+  },
+  "deviceConfig": {},
+  "module": {
+    "package": "org.applibgroup.codelabs.intents",
+    "name": ".MyApplication",
+    "mainAbility": "org.applibgroup.codelabs.intents.MainAbility",
+    "deviceType": [
+      "phone",
+      "tablet",
+      "tv",
+      "wearable"
+    ],
+    "distro": {
+      "deliveryWithInstall": true,
+      "moduleName": "entry",
+      "moduleType": "entry",
+      "installationFree": false
+    },
+    "abilities": [
+      {
+        "skills": [
+          {
+            "entities": [
+              "entity.system.home"
+            ],
+            "actions": [
+              "action.system.home"
+            ]
+          }
+        ],
+        "orientation": "unspecified",
+        "name": "org.applibgroup.codelabs.intents.MainAbility",
+        "icon": "$media:icon",
+        "description": "$string:entry_MainAbility",
+        "label": "$string:entry_MainAbility",
+        "type": "page",
+        "launchType": "standard"
+      },
+      {
+        "orientation": "unspecified",
+        "name": "org.applibgroup.codelabs.intents.SerializedDataAbility",
+        "icon": "$media:icon",
+        "description": "$string:secondability_description",
+        "label": "$string:entry_SecondAbility",
+        "type": "page",
+        "launchType": "standard"
+      }
+    ],
+    "reqPermissions": [
+      {
+        "name": "ohos.permission.INTERNET"
+      },
+      {
+        "name": "ohos.permission.PLACE_CALL"
+      },
+      {
+        "name": "ohos.permission.LOCATION"
+      }
+    ]
+  }
+}

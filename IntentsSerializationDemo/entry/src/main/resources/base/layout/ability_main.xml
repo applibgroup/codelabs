@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DirectionalLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:height="match_parent"
+    ohos:width="match_parent"
+    ohos:alignment="center"
+    ohos:orientation="vertical">
+
+    <Text
+        ohos:id="$+id:textView"
+        ohos:height="match_content"
+        ohos:width="match_content"
+        ohos:bottom_margin="50vp"
+        ohos:text="INTENTS"
+        ohos:text_size="40vp"
+        ohos:top_margin="100vp"/>
+
+    <DirectionalLayout
+        xmlns:ohos="http://schemas.huawei.com/res/ohos"
+        ohos:height="match_content"
+        ohos:width="180vp"
+        ohos:alignment="horizontal_center"
+        ohos:orientation="vertical">
+
+        <Button
+            ohos:id="$+id:startNewActivity"
+            ohos:height="match_content"
+            ohos:width="match_parent"
+            ohos:background_element="$graphic:button_bg"
+            ohos:clickable="true"
+            ohos:margin="10vp"
+            ohos:padding="10vp"
+            ohos:text="$string:activity_launch"
+            ohos:text_color="#FFFFFF"
+            ohos:text_size="14vp"/>
+
+        <Button
+            ohos:id="$+id:launchMap"
+            ohos:height="match_content"
+            ohos:width="match_parent"
+            ohos:background_element="$graphic:button_bg"
+            ohos:margin="10vp"
+            ohos:padding="10vp"
+            ohos:text="$string:map_launch"
+            ohos:text_color="#FFFFFF"
+            ohos:text_size="14vp"/>
+
+        <Button
+            ohos:id="$+id:dialCall"
+            ohos:height="match_content"
+            ohos:width="match_parent"
+            ohos:background_element="$graphic:button_bg"
+            ohos:margin="10vp"
+            ohos:padding="10vp"
+            ohos:text="$string:dial_Call"
+            ohos:text_color="#FFFFFF"
+            ohos:text_size="14vp"/>
+
+        <Button
+            ohos:id="$+id:launchBrowser"
+            ohos:height="match_content"
+            ohos:width="match_parent"
+            ohos:background_element="$graphic:button_bg"
+            ohos:margin="10vp"
+            ohos:padding="10vp"
+            ohos:text="$string:launch_browser"
+            ohos:text_color="#FFFFFF"
+            ohos:text_size="14vp"/>
+
+        <Button
+            ohos:id="$+id:chooseFile"
+            ohos:height="match_content"
+            ohos:width="match_parent"
+            ohos:background_element="$graphic:button_bg"
+            ohos:margin="10vp"
+            ohos:padding="10vp"
+            ohos:text="$string:choose_file"
+            ohos:text_color="#FFFFFF"
+            ohos:text_size="14vp"/>
+    </DirectionalLayout>
+
+</DirectionalLayout>
